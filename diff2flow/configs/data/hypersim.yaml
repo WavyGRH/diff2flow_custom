@@ -1,0 +1,8 @@
+# Hypersim + Virtual KITTI v2 dataset config for depth estimation
+type: "depth"
+root_dir: "data/hypersim"
+vkitti_dir: "data/virtual_kitti_v2"
+resolution: [384, 512]
+batch_size: 32
+num_workers: 4
+log_normalize: true

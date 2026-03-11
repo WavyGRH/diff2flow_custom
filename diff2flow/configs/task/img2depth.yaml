@@ -1,0 +1,8 @@
+# Image-to-Depth task config
+task_type: "img2depth"
+conditioning: "null_text"  # Dummy null text embedding
+context: "image_latent"    # Concatenate image latent (8-channel input)
+in_channels: 8
+num_steps: 2               # DepthFM-style fast inference
+guidance_scale: 1.0
+ensemble_size: 4

@@ -1,0 +1,7 @@
+# LAION-Aesthetics dataset config
+type: "text_image"
+root_dir: "data/laion-aesthetics"
+resolution: [512, 512]
+batch_size: 32
+num_workers: 4
+caption_file: "captions.json"

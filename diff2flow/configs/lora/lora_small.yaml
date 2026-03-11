@@ -1,0 +1,14 @@
+# LoRA "small" config: fixed rank 64 (~62M params for SD 2.1)
+enabled: true
+rank: 64
+alpha: 1.0
+dropout: 0.0
+target_modules:
+  - "to_q"
+  - "to_k"
+  - "to_v"
+  - "to_out.0"
+  - "proj_in"
+  - "proj_out"
+  - "ff.net.0.proj"
+  - "ff.net.2"

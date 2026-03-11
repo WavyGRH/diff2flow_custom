@@ -1,0 +1,7 @@
+# Reflow task config (trajectory straightening)
+task_type: "reflow"
+conditioning: "text"
+context: null
+num_steps: 4              # Few-step inference target
+guidance_scale: 1.0       # No CFG for reflow
+data_type: "reflow"       # Uses pre-computed noise-image pairs

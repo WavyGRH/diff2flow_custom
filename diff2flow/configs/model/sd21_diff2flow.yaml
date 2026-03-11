@@ -1,0 +1,5 @@
+# SD 2.1 with Diff2Flow objective (proposed method)
+model_id: "stabilityai/stable-diffusion-2-1"
+in_channels: 4
+parameterization: "v"
+objective: "diff2flow"
