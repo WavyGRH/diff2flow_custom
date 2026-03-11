@@ -1,4 +1,4 @@
-# 🌊 Diff2Flow: Training Flow Matching Models via Diffusion Model Alignment
+# Diff2Flow: Training Flow Matching Models via Diffusion Model Alignment
 
 [![Paper](https://img.shields.io/badge/arXiv-2506.02221-b31b1b.svg)](https://arxiv.org/abs/2506.02221)
 [![Conference](https://img.shields.io/badge/CVPR-2025-blue.svg)](https://arxiv.org/abs/2506.02221)
@@ -10,7 +10,7 @@
 
 ---
 
-## 📝 Overview
+##  Overview
 
 | Aspect | Diffusion Models | Flow Matching | Diff2Flow |
 |---|---|---|---|
@@ -28,7 +28,7 @@
 
 ---
 
-## 🛠️ Setup
+##  Setup
 
 ### Prerequisites
 - Python ≥ 3.9
@@ -77,7 +77,7 @@ The project uses HuggingFace `diffusers` to automatically download Stable Diffus
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Running Tests
 
@@ -144,7 +144,7 @@ python scripts/generate_reflow_pairs.py \
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 diff2flow/
@@ -173,7 +173,7 @@ diff2flow/
 
 ---
 
-## 🧮 Core Algorithm
+##  Core Algorithm
 
 ### 1. Timestep Mapping (`ft`)
 Maps diffusion timesteps `t_DM ∈ [0, 1000]` to FM timesteps `t_FM ∈ [0, 1]`:
@@ -221,7 +221,7 @@ where `v_target` is the true FM velocity and inputs are mapped via `ft⁻¹` and
 
 ---
 
-## 🎓 Citation
+##  Citation
 
 ```bibtex
 @InProceedings{schusterbauer2024diff2flow,
@@ -238,7 +238,7 @@ where `v_target` is the true FM velocity and inputs are mapped via `ft⁻¹` and
 
 This implementation is released under the [MIT License](LICENSE). The original paper and official code are by the CompVis Group @ LMU Munich.
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - [CompVis/diff2flow](https://github.com/CompVis/diff2flow) — Official implementation
 - [HuggingFace Diffusers](https://github.com/huggingface/diffusers) — Stable Diffusion backbone
